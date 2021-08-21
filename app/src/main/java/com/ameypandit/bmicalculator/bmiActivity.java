@@ -75,7 +75,7 @@ public class bmiActivity extends AppCompatActivity {
         else if(intbmi<25&&intbmi>18.4){
             mbmicategory.setText("Normal");
             mbackground.setBackgroundColor(Color.GREEN);
-            mimageview.setImageResource(R.drawable.ok);
+            mimageview.setImageResource(R.drawable.ok2);
         }
         else if(intbmi<29.4&&intbmi>25){
             mbmicategory.setText("Overweight");
